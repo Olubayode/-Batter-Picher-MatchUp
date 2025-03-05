@@ -8,7 +8,7 @@ This project automates the retrieval, processing, and organization of ** XXXX So
 
 ## 📂 Folder Structure
 
-``
+```text
 ou_softball_project/
 ├── data/                             # All CSV files stored here
 │   ├── ou_roster_2024.csv
@@ -27,7 +27,7 @@ ou_softball_project/
 │   ├── ou_master_pitching_2025.csv
 ├── config.py                         # Configuration (API URL, Team ID, Season IDs, etc.)
 
-
+```
 
 ## ⚙️ **How It Works**
 
@@ -54,7 +54,7 @@ ou_softball_project/
 | ou_master_pitching_YYYY.csv | Combined & cleaned master pitching file (overall + splits + roster data) |
 
 EOF
-
+```text
 ├── fetch_data.py                     # Fetch data from API and save to CSV
 ├── process_data.py                   # Process, merge, and clean data into master files
 ├── main.py                           # Main entry point to run everything
