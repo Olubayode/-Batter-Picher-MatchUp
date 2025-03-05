@@ -68,7 +68,7 @@ ou_softball_project/
 
 ---
 
-## 📥 Data Files Explained
+### 📥 Data Files Explained
 
 | File Name | What It Contains |
 |---|---|
