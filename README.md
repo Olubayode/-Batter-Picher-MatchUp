@@ -27,6 +27,8 @@ ou_softball_project/
 │   ├── ou_master_pitching_2025.csv
 ├── config.py                         # Configuration (API URL, Team ID, Season IDs, etc.)
 
+
+
 ## ⚙️ **How It Works**
 
 | Step | Action |
@@ -39,34 +41,7 @@ ou_softball_project/
 
 ---
 
-## 📥 **Data Files Explained**
-
-| File Name | What It Contains |
-|---|---|
-| ou_roster_YYYY.csv | Full roster for the team in that season (names, positions, handedness) |
-| ou_hitting_YYYY.csv | Overall season hitting stats (aggregated) |
-| ou_hitting_splits_YYYY_{split}.csv | Hitting stats broken down by split (LHP, RHP, Home, Away) |
-| ou_pitching_YYYY.csv | Overall season pitching stats (aggregated) |
-| ou_pitching_splits_YYYY_{split}.csv | Pitching stats broken down by split (LHH, RHH, Home, Away) |
-| ou_master_hitting_YYYY.csv | Combined & cleaned master hitting file (overall + splits + roster data) |
-| ou_master_pitching_YYYY.csv | Combined & cleaned master pitching file (overall + splits + roster data) |
-
----
-
-
-## ⚙️ How It Works
-
-| Step | Action |
-|---|---|
-| 1️⃣ | Retrieve roster data for each season |
-| 2️⃣ | Retrieve overall hitting & pitching stats for each player |
-| 3️⃣ | Retrieve split type stats (vs LHP, RHP, home, away) |
-| 4️⃣ | Combine all data (overall + splits + roster details) into master files |
-| 5️⃣ | Save all data into `data/` folder |
-
----
-
-### 📥 Data Files Explained
+### 📥 **Data Files Explained**
 
 | File Name | What It Contains |
 |---|---|
