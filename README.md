@@ -1,8 +1,8 @@
-# Softball Data Pipeline - 643 Charts API Integration
+# Softball Data Pipeline - XXX Charts API Integration
 
 ## 📍 Project Overview
 
-This project automates the retrieval, processing, and organization of **Oklahoma Softball Team Data** for the 2024 and 2025 seasons using the **643 Charts API**. The pipeline collects roster data, player-specific hitting and pitching stats (overall and split types), and combines them into **master files** for seamless analysis.
+This project automates the retrieval, processing, and organization of ** XXXX Softball Team Data** for the 2024 and 2025 seasons using the **643 Charts API**. The pipeline collects roster data, player-specific hitting and pitching stats (overall and split types), and combines them into **master files** for seamless analysis.
 
 ---
 
