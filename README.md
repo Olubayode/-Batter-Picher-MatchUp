@@ -8,7 +8,7 @@ This project automates the retrieval, processing, and organization of ** XXXX So
 
 ## 📂 Folder Structure
 
-```text
+``
 ou_softball_project/
 ├── data/                             # All CSV files stored here
 │   ├── ou_roster_2024.csv
